@@ -1,0 +1,12 @@
+.nav-link.profile{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   background-color: var(--color-darkest);
+   border-radius: calc(var(--border-radius-primary));
+}
+.nav-link.profile:hover{
+   background-color: var(--color-primary);
+   color: var(--color-light);
+}

@@ -1,0 +1,13 @@
+.section-header .section-title {
+   font-size: 36px;
+   font-weight: var(--font-weight-boldest);
+}
+.section-header h4 .section-title-primary{
+   color: var(--color-light);
+   text-decoration: underline;
+
+}
+.section-header h4 .section-title-light{
+   color: var(--color-primary);
+   text-decoration: none;
+}

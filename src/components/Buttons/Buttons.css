@@ -1,0 +1,47 @@
+
+.button-link a {
+   font-size: 14px;
+   padding: 12px 30px;
+   display: inline-block;
+   border-radius: 25px;
+   font-weight: 400;
+   text-transform: capitalize;
+   letter-spacing: 0.5px;
+   transition: all .3s;
+   position: relative;
+   overflow: hidden;
+   text-decoration: none;
+}
+.button-link-primary a{
+   margin-top: 15px;
+   display: inline-block;
+   padding: 12px calc(var(--padding-primary)/2);
+   border-radius: calc(var(--border-radius-primary));
+   text-decoration: none;
+   background-color: var(--color-primary);
+   color: var(--color-light);
+   transition: all 0.3s ease-in-out;
+}
+.button-link-primary a:hover{
+   background-color: var(--color-light);
+   color: var(--color-primary);
+}
+
+.button-link-secondary a{
+   background-color: transparent;
+   color: var(--color-primary);
+   border: 1px solid var(--color-primary);
+}
+
+.button-link-secondary a:hover{
+   background-color: var(--color-primary);
+   color: var(--color-light);
+}
+
+.button-float{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   bottom: -20px;
+}
