@@ -3,7 +3,6 @@
 * React-dom 18.2.0
 * React-icons 4.10.1
 * React-router-dom 6.14.1
-* React-scripts 5.0.1
 
 # Getting Started with Create React App
 
